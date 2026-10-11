@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#172126" />
+  <meta name="description"
+    content="GatgetVins — gadget premium 100% original, bergaransi, dan dikurasi untuk menemani setiap ambisi." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <title>GatgetVins — Upgrade Potensimu</title>
+</head>
+
+<body class="bg-cream text-ink antialiased">
+  <!-- Topbar -->
+  <div class="bg-ink py-2.5 text-center text-[11px] font-semibold tracking-wide text-white/80 sm:text-xs">
+    <span class="text-[#e4b778]">✦</span> 100% Original & Bergaransi &nbsp;·&nbsp; Gadget pilihan, pengalaman istimewa
+  </div>
+
+  <!-- Navbar -->
+  <header class="glass-nav sticky top-0 z-40 border-b border-black/5 bg-white/95">
+    <div class="container-shell flex h-[76px] items-center justify-between gap-5">
+      <a href="#home" class="flex shrink-0 items-center gap-2.5" aria-label="GatgetVins Home">
+        <span
+          class="grid size-10 place-items-center rounded-xl bg-ink text-[25px] font-extrabold italic text-[#e4b778]">V</span>
+        <span class="text-[19px] font-extrabold tracking-[-.055em]">Gatget<span class="text-brand">Vins</span></span>
+      </a>
+      <nav
+        class="hidden items-center gap-8 text-[12px] font-extrabold uppercase tracking-[.075em] text-[#414a4e] lg:flex"
+        aria-label="Navigasi utama">
+        <a href="#home" class="hover:text-brand">Home</a>
+        <a href="#about" class="hover:text-brand">About Us</a>
+        <a href="#gallery" class="hover:text-brand">Gallery</a>
+        <a href="#products" class="hover:text-brand">Products</a>
+        <a href="#contact" class="hover:text-brand">Contact</a>
+      </nav>
+      <div class="flex items-center gap-2 sm:gap-3">
+        <button id="cart-button" type="button" aria-label="Buka keranjang belanja"
+          class="relative grid size-11 place-items-center rounded-full border border-[#e6e8e5] bg-white hover:border-brand">
+          <svg class="size-[19px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M6 8h12l1 12H5L6 8Z" />
+            <path d="M9 9V6a3 3 0 0 1 6 0v3" />
+          </svg>
+          <span id="cart-count"
+            class="absolute -right-1 -top-1 grid min-w-5 h-5 place-items-center rounded-full bg-brand px-1 text-[10px] font-bold text-white">0</span>
+        </button>
+        <a href="#contact"
+          class="button-lift hidden rounded-full bg-brand px-5 py-3 text-xs font-extrabold text-white hover:bg-branddark sm:inline-flex">Contact
+          Us <span class="ml-2">↗</span></a>
+        <button id="menu-button" type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="mobile-menu"
+          class="grid size-11 place-items-center rounded-full border border-[#e6e8e5] lg:hidden">
+          <svg class="size-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" aria-hidden="true">
+            <path d="M4 7h16M4 12h16M4 17h16" />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <nav id="mobile-menu" class="hidden border-t border-black/5 bg-white px-6 py-5 lg:hidden"
+      aria-label="Navigasi seluler">
+      <div class="flex flex-col gap-4 text-sm font-bold">
+        <a href="#home">Home</a><a href="#about">About Us</a><a href="#gallery">Gallery</a><a
+          href="#products">Products</a><a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="home"
+      class="relative isolate flex min-h-[620px] items-center overflow-hidden bg-[#101922] text-white sm:min-h-[680px]">
+      <img class="hero-image absolute inset-0 -z-20 h-full w-full object-cover object-center"
+        src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=2000&q=90"
+        alt="Laptop premium di atas meja kerja" fetchpriority="high" />
+      <div class="hero-shade absolute inset-0 -z-10"></div>
+      <div class="container-shell py-24 sm:py-32">
+        <div class="max-w-[660px]">
+          <p class="eyebrow mb-7 flex items-center gap-3 text-[#e4b778]"><span class="h-px w-9 bg-[#e4b778]"></span> THE
+            NEXT LEVEL OF TECHNOLOGY</p>
+          <h1 class="display-title text-[clamp(3rem,6.5vw,6.4rem)] font-extrabold">Upgrade Gear Kamu, <br><span
+              class="text-[#e7b16d]">Upgrade Potensimu.</span></h1>
+          <p class="mt-7 max-w-[460px] text-sm leading-8 text-white/75 sm:text-base">Dari laptop untuk ngoding sampai
+            smartphone buat konten, GatgetVins siap jadi partner tech andalanmu. Pilih gadget premium, 100% original,
+            tanpa was-was.</p>
+          <div class="mt-10 flex flex-wrap items-center gap-4">
+            <a href="#products"
+              class="button-lift rounded-full bg-brand px-7 py-4 text-sm font-bold text-white hover:bg-branddark">Cari
+              Gadgetmu <span class="ml-4">↗</span></a>
+            <a href="#about"
+              class="rounded-full border border-white/35 px-7 py-4 text-sm font-bold text-white transition hover:bg-white/10">Kenapa
+              GatgetVins? <span class="ml-3">→</span></a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="absolute bottom-7 left-1/2 hidden -translate-x-1/2 items-center gap-2 text-[10px] font-bold uppercase tracking-[.22em] text-white/55 sm:flex">
+        <span class="h-px w-8 bg-white/40"></span> Scroll to explore <span class="h-px w-8 bg-white/40"></span></div>
+    </section>
+
+    <!-- Trust points -->
+    <section class="border-b border-[#e9e7e1] bg-white py-8">
+      <div class="container-shell grid gap-6 text-center md:grid-cols-3 md:divide-x md:divide-[#eeece7]">
+        <div>
+          <p class="text-sm font-extrabold">✧ &nbsp; 100% Original</p>
+          <p class="mt-1 text-xs text-muted">Kualitas autentik yang bisa dipercaya</p>
+        </div>
+        <div>
+          <p class="text-sm font-extrabold">✓ &nbsp; Garansi Resmi</p>
+          <p class="mt-1 text-xs text-muted">Belanja nyaman dan bebas khawatir</p>
+        </div>
+        <div>
+          <p class="text-sm font-extrabold">↗ &nbsp; Premium Selection</p>
+          <p class="mt-1 text-xs text-muted">Hanya gadget pilihan untuk kamu</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="scroll-mt-24 py-24 sm:py-32">
+      <div class="container-shell grid items-center gap-14 lg:grid-cols-2 lg:gap-20">
+        <div class="relative order-2 lg:order-1">
+          <div class="aspect-[1.12] overflow-hidden rounded-[28px] bg-[#d4d8da]">
+            <img class="h-full w-full object-cover"
+              src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1100&q=85"
+              alt="Laptop dan perangkat teknologi di meja kerja modern" loading="lazy" />
+          </div>
+          <div class="absolute -bottom-7 right-5 rounded-2xl bg-ink px-7 py-6 text-white shadow-2xl sm:right-[-20px]">
+            <p class="text-3xl font-extrabold text-[#e7b16d]">100%</p>
+            <p class="mt-1 text-xs font-semibold tracking-wide">Authentic Products</p>
+          </div>
+        </div>
+        <div class="order-1 lg:order-2">
+          <p class="eyebrow text-brand">WHO WE ARE</p>
+          <h2 class="display-title mt-5 text-[clamp(2.3rem,4.5vw,4.4rem)] font-extrabold">Bukan Sekadar Jualan,
+            <br><span class="text-brand">Kita Ngerti Kebutuhanmu.</span></h2>
+          <p class="mt-7 text-sm leading-8 text-muted sm:text-base">Di GatgetVins, kita percaya gadget itu investasi.
+            Entah kamu mahasiswa yang lagi pusing ngerjain skripsi, atau developer yang butuh performa kencang, kita
+            punya solusinya.</p>
+          <p class="mt-4 text-sm leading-8 text-muted sm:text-base">Nggak perlu khawatir soal barang abal-abal. Semua
+            produk di sini dijamin <strong class="font-bold text-ink">100% original</strong>, bergaransi resmi, dan siap
+            dukung produktivitasmu tiap hari.</p>
+          <a href="#products"
+            class="button-lift mt-9 inline-flex rounded-full bg-ink px-7 py-4 text-sm font-bold text-white hover:bg-[#313e45]">Lihat
+            Koleksi Kita <span class="ml-5">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="scroll-mt-24 bg-white py-24 sm:py-28">
+      <div class="container-shell">
+        <div class="mb-10 flex flex-wrap items-end justify-between gap-5">
+          <div>
+            <p class="eyebrow text-brand">A CLOSER LOOK</p>
+            <h2 class="display-title mt-3 text-4xl font-extrabold sm:text-5xl">Gadget Premium di <span
+                class="text-brand">Tangan Tepat.</span></h2>
+          </div>
+          <p class="max-w-[300px] text-sm leading-7 text-muted">Intip setup dan gear andalan pilihan pelanggan
+            GatgetVins.</p>
+        </div>
+        <div class="grid gap-4 md:grid-cols-3 md:gap-5">
+          <figure
+            class="group relative h-[350px] overflow-hidden rounded-[22px] bg-[#dce1e3] md:h-[430px] md:col-span-1"><img
+              src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=85"
+              alt="Setup kerja dengan laptop" loading="lazy"
+              class="h-full w-full object-cover transition duration-500 group-hover:scale-105" />
+            <figcaption
+              class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/75 to-transparent p-6 pt-20 text-lg font-extrabold text-white">
+              Setup Andalan Anak IT <span class="block pt-1 text-xs font-medium text-white/75">Work & Create</span>
+            </figcaption>
+          </figure>
+          <figure
+            class="group relative h-[350px] overflow-hidden rounded-[22px] bg-[#dce1e3] md:h-[430px] md:col-span-1"><img
+              src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=85"
+              alt="Perangkat digital mendukung kolaborasi" loading="lazy"
+              class="h-full w-full object-cover transition duration-500 group-hover:scale-105" />
+            <figcaption
+              class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/75 to-transparent p-6 pt-20 text-lg font-extrabold text-white">
+              Produktivitas Tanpa Batas <span class="block pt-1 text-xs font-medium text-white/75">Everyday
+                Essentials</span></figcaption>
+          </figure>
+          <figure
+            class="group relative h-[350px] overflow-hidden rounded-[22px] bg-[#dce1e3] md:h-[430px] md:col-span-1"><img
+              src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=900&q=85"
+              alt="Ruang toko dengan konsep elegan" loading="lazy"
+              class="h-full w-full object-cover transition duration-500 group-hover:scale-105" />
+            <figcaption
+              class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/75 to-transparent p-6 pt-20 text-lg font-extrabold text-white">
+              Mampir ke Toko Kita <span class="block pt-1 text-xs font-medium text-white/75">Discover & Explore</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product list: isi card akan dirender dari API -->
+    <section id="products" class="scroll-mt-24 py-24 sm:py-28">
+      <div class="container-shell">
+        <div class="flex flex-wrap items-end justify-between gap-5">
+          <div>
+            <p class="eyebrow text-brand">HANDPICKED FOR YOU</p>
+            <h2 class="display-title mt-3 text-4xl font-extrabold sm:text-5xl">Gadget Pilihan <span
+                class="text-brand">Bulan Ini.</span></h2>
+            <p class="mt-4 max-w-[540px] text-sm leading-7 text-muted">Kurasi terbaik dari GatgetVins, khusus buat kamu
+              yang cari performa maksimal.</p>
+          </div>
+          <span class="text-xs font-semibold text-muted"><span id="product-count">0</span> produk tersedia</span>
+        </div>
+        <div id="product-filters" class="mt-9 flex flex-wrap gap-2" aria-label="Filter kategori produk"></div>
+        <div id="product-grid" class="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4" aria-live="polite">
+          <p class="col-span-full rounded-2xl bg-white p-10 text-center text-sm text-muted">Sedang memuat produk dari
+            server...</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to action -->
+    <section class="bg-ink py-16 text-white sm:py-20">
+      <div class="container-shell flex flex-col items-start justify-between gap-7 md:flex-row md:items-center">
+        <div>
+          <p class="eyebrow text-[#e4b778]">YOUR NEXT UPGRADE</p>
+          <h2 class="display-title mt-4 text-3xl font-extrabold sm:text-4xl">Udah siap upgrade potensimu?</h2>
+          <p class="mt-3 text-sm text-white/65">Temukan perangkat yang pas banget sama gaya dan ambisimu.</p>
+        </div>
+        <a href="#contact"
+          class="button-lift shrink-0 rounded-full bg-brand px-7 py-4 text-sm font-bold text-white hover:bg-branddark">Tanya
+          Kita <span class="ml-4">↗</span></a>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="scroll-mt-24 bg-white py-24 sm:py-28">
+      <div class="container-shell grid gap-12 lg:grid-cols-[.85fr_1.15fr] lg:gap-20">
+        <div>
+          <p class="eyebrow text-brand">LET'S CONNECT</p>
+          <h2 class="display-title mt-4 text-4xl font-extrabold sm:text-5xl">Ada Pertanyaan atau <span
+              class="text-brand">Butuh Saran?</span></h2>
+          <p class="mt-6 max-w-[400px] text-sm leading-8 text-muted">Bingung pilih laptop yang pas atau mau tanya
+            ketersediaan stok? Jangan ragu buat kontak kita.</p>
+          <div class="mt-10 space-y-5">
+            <p class="flex gap-4 text-sm font-semibold"><span
+                class="grid size-11 shrink-0 place-items-center rounded-full bg-[#fbf3e7] text-brand">⌖</span><span
+                class="self-center">Semarang, Indonesia</span></p>
+            <p class="flex gap-4 text-sm font-semibold"><span
+                class="grid size-11 shrink-0 place-items-center rounded-full bg-[#fbf3e7] text-brand">✉</span><span
+                class="self-center">hello@gatgetvins.example</span></p>
+          </div>
+          <p class="mt-4 text-xs text-muted">Alamat email di atas adalah contoh, bukan kontak bisnis aktif.</p>
+        </div>
+        <form id="contact-form" class="card-shadow rounded-[26px] border border-[#eeece9] bg-white p-6 sm:p-10">
+          <h3 class="text-xl font-extrabold">Kirim Pesan <span class="text-brand">↗</span></h3>
+          <p class="mt-2 text-sm text-muted">Kita siap bantu temukan gadget yang kamu butuhkan.</p>
+          <div class="mt-7 grid gap-5 sm:grid-cols-2">
+            <div><label for="contact-name" class="mb-2 block text-xs font-bold">Nama panggilanmu <span
+                  class="text-red-600">*</span></label><input id="contact-name" name="name" class="input-field"
+                type="text" placeholder="Misal: Alvin" autocomplete="name" required maxlength="100" /></div>
+            <div><label for="contact-email" class="mb-2 block text-xs font-bold">Email <span
+                  class="text-red-600">*</span></label><input id="contact-email" name="email" class="input-field"
+                type="email" placeholder="nama@email.com" autocomplete="email" required maxlength="254" /></div>
+            <div class="sm:col-span-2"><label for="contact-subject"
+                class="mb-2 block text-xs font-bold">Subjek</label><input id="contact-subject" name="subject"
+                class="input-field" type="text" placeholder="Mau tanya soal apa?" maxlength="150" /></div>
+            <div class="sm:col-span-2"><label for="contact-message" class="mb-2 block text-xs font-bold">Pesan <span
+                  class="text-red-600">*</span></label><textarea id="contact-message" name="message"
+                class="input-field min-h-36 resize-y" placeholder="Tulis ceritamu di sini..." required
+                maxlength="2000"></textarea></div>
+          </div>
+          <div class="mt-6 flex flex-wrap items-center gap-4"><button id="contact-submit" type="submit"
+              class="button-lift rounded-full bg-brand px-7 py-4 text-sm font-bold text-white hover:bg-branddark">Kirim
+              Pesan <span class="ml-3">↗</span></button>
+            <p id="form-status" class="text-xs font-semibold" role="status" aria-live="polite"></p>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-[#121b20] py-12 text-white/65">
+    <div class="container-shell flex flex-col justify-between gap-8 md:flex-row md:items-center">
+      <div><a href="#home" class="text-lg font-extrabold tracking-tight text-white">Gatget<span
+            class="text-[#e4b778]">Vins</span></a>
+        <p class="mt-2 text-xs">Premium tech, better everyday.</p>
+      </div>
+      <div class="flex flex-wrap gap-6 text-xs font-semibold"><a href="#about" class="hover:text-white">About</a><a
+          href="#gallery" class="hover:text-white">Gallery</a><a href="#products"
+          class="hover:text-white">Products</a><a href="#contact" class="hover:text-white">Contact</a></div>
+      <p class="text-xs">© <span id="year"></span> GatgetVins. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Keranjang demo -->
+  <div id="cart-overlay" class="fixed inset-0 z-50 hidden bg-black/50" aria-hidden="true"></div>
+  <aside id="cart-drawer"
+    class="fixed inset-y-0 right-0 z-[60] hidden w-full max-w-[420px] overflow-y-auto bg-white p-6 shadow-2xl sm:p-8"
+    role="dialog" aria-modal="true" aria-label="Keranjang belanja" tabindex="-1">
+    <div class="flex items-center justify-between">
+      <h2 class="text-2xl font-extrabold">Your Cart</h2><button id="cart-close" type="button"
+        class="grid size-10 place-items-center rounded-full bg-[#f2f2ee] text-xl"
+        aria-label="Tutup keranjang">×</button>
+    </div>
+    <div id="cart-items" class="mt-8 space-y-5"></div>
+    <div class="mt-8 border-t border-[#e6e8e5] pt-6">
+      <div class="flex items-center justify-between text-sm font-bold"><span>Subtotal</span><span
+          id="cart-total">Rp0</span></div>
+      <p class="mt-3 text-xs leading-6 text-muted">Keranjang tersimpan di browser. Checkout dan pembayaran belum
+        tersedia dalam demo ini.</p>
+    </div>
+  </aside>
+  <div id="toast"
+    class="pointer-events-none fixed bottom-6 left-1/2 z-[70] -translate-x-1/2 translate-y-4 rounded-full bg-ink px-6 py-3 text-center text-xs font-semibold text-white opacity-0 shadow-xl transition-all duration-300"
+    role="status" aria-live="polite"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
